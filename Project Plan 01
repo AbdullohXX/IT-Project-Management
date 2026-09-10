@@ -1,0 +1,92 @@
+# Project Plan: IT PM Project 1
+
+ ### 1\. Course Name
+
+ **IT Project Management**
+
+ ### 2. Team Information
+
+ - **Team Name:** Mamur\_Team
+- **Team Members:**
+  - Leader: Abdulloh Xojimurodov / Student ID: 202490365 / Group: I24A / Role: Leader
+  - Member 1: Najmiddin Kurganov / Student ID: 202490180 / Group: I24A / Role: Project planner
+  - Member 2: Biloliddin To'laganov / Student ID: 202490326 / Group: I24A / Role: Project speaker gooner
+
+ ### 3\. Project Title
+
+ **E-Commerce Sales Analysis**
+
+ ### 4\. Dataset Information
+
+ - **Dataset Title:** E-Commerce Sales Dataset
+- **Source Website / URL:** Kaggle
+- **Description:** Dataset containing information about online sales, products, customers, orders, prices, quantities, and dates.
+- **Why selected:** To analyze sales performance and customer purchasing patterns.
+- **Size:** To be determined after dataset selection.
+
+ ### 5\. Project Objectives
+
+ - Analyze e-commerce sales performance.
+- Identify the best-selling products.
+- Find the countries with the highest sales.
+- Analyze monthly sales trends.
+- Identify the most valuable customers.
+- Calculate average order value.
+
+ ### 6\. Data Preparation
+
+ - Load the dataset using Pandas.
+- Check and handle missing values.
+- Remove duplicate records.
+- Correct data types.
+- Create useful new columns such as total revenue.
+
+ ### 7\. Data Analysis Tasks
+
+ - Filter and sort sales data.
+- Group sales by product, country, and customer.
+- Calculate total and average revenue.
+- Analyze monthly sales.
+- Create pivot tables.
+- Answer the project objectives using Pandas.
+
+ ### 8\. Key Findings and Insights
+
+ - Identify the highest-revenue products.
+- Determine the strongest sales periods.
+- Find the most important customer groups and markets.
+- Provide recommendations based on the analysis.
+
+ ### 9\. Project Timeline
+
+ | Week | Activities |
+| --- | --- |
+| **Week 1 (07 Sep – 13 Sep)** | Dataset search and project planning |
+| **Week 2 (14 Sep – 20 Sep)** | Data cleaning and preparation |
+| **Week 3 (21 Sep – 27 Sep)** | Data analysis and visualization |
+| **Week 4 (28 Sep – 04 Oct)** | Results interpretation and report preparation |
+| **Week 5 (05 Oct – 13 Oct)** | Final report and presentation preparation |
+| **Presentation (14 Oct)** | Project presentation |
+
+### 10\. Outcome of the Project
+
+ - Learn practical Pandas data analysis.
+- Develop data cleaning and analytical skills.
+- Improve teamwork and project management skills.
+- Learn how to interpret and present data.
+
+ ### 11\. Conclusion
+
+ The project will use real-world e-commerce data to demonstrate how Pandas can be used to clean, analyze, and interpret data for better business decision-making.
+
+ ### 12\. References
+
+ - Kaggle
+- Pandas Documentation
+- Python Documentation
+
+ ### 13\. Appendix
+
+ - Python/Pandas code
+- Additional tables
+- Charts and analysis results
