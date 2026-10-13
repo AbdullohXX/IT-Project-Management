@@ -1,117 +1,95 @@
-# IT Project Management — Lolo_Team
+# IT Project Management
 
-University coursework for **Capstone 2: IT Project Management**.
+University coursework by **Lolo_Team**, covering project planning, system analysis, and an **E-Commerce Sales Analysis** project.
 
-## Main Team Project
-# E-Commerce Sales Analysis
+This repository brings together the project plan, process diagrams, work breakdown structures, scheduling examples, and a requirements-analysis presentation.
 
-The project uses Python and Pandas to plan and perform an analysis of e-commerce sales data. The goal is to transform raw transaction data into useful business insights about revenue, products, markets, customers, and sales trends.
+Website: https://sites.google.com/view/alilshop/shop
 
 ## Team
 
 | Member | Student ID | Group | Role |
-|---|---:|---|---|
+| --- | --- | --- | --- |
 | Abdulloh Xojimurodov | 202490365 | I24A | Team Leader |
 | Najmiddin Kurganov | 202490180 | I24A | Project Planner |
 | Biloliddin To'laganov | 202490326 | I24A | Project Speaker |
 
-## Official Project-Management Deliverables
+## Main Project: E-Commerce Sales Analysis
 
-| Requirement | File | Status |
-|---|---|---|
-| 1. Project Plan | [Project Plan 01](Project%20Plan%2001) | Complete |
-| 2. Team Contract / Agreement | [02_Team_Agreement.md](02_Team_Agreement.md) | Complete |
-| 3. Use Case Modeling + Specifications | [03_Use_Case_Model.md](03_Use_Case_Model.md) | Complete |
-| 4. Business Process Model | [04_BPMN_Process.md](04_BPMN_Process.md) | Complete |
-| 5. Work Breakdown Structure | [05_WBS.md](05_WBS.md) | Complete |
-| 6. Gantt Chart | [06_Gantt_Chart.md](06_Gantt_Chart.md) | Complete |
+The project plans to use Python and Pandas to examine online sales data and answer business questions about products, customers, markets, and sales trends.
 
-These six files are the **official planning set** for the E-Commerce Sales Analysis project. They are designed to use the same project scope, actors, responsibilities, workflow, and schedule.
+### Objectives
 
-## Project Objectives
 - Analyze overall sales performance and monthly sales trends.
-- Identify best-selling and highest-revenue products.
-- Compare sales across countries or markets.
-- Identify valuable customers.
+- Identify best-selling products and products generating the most revenue.
+- Compare sales across countries.
+- Identify the most valuable customers.
 - Calculate average order value.
-- Create clear tables and visualizations.
-- Present evidence-based findings and business recommendations.
+- Present findings and recommendations supported by the analysis.
 
-## Project Scope
+### Planned Workflow
 
-### Included
-- Dataset selection and documentation.
-- Data validation and cleaning.
-- Pandas-based analysis.
-- Sales, product, market, customer, and time-based analysis.
-- Visualizations and summary tables.
-- Interpretation and recommendations.
-- Project-management documentation.
-- Final report and presentation preparation.
+1. **Select the dataset:** choose an appropriate e-commerce sales dataset from Kaggle and document its source and fields.
+2. **Prepare the data:** handle missing values, remove duplicate records, correct data types, and calculate revenue where appropriate.
+3. **Analyze sales:** filter records, group sales by product, country, and customer, and create monthly summaries and pivot tables.
+4. **Present results:** create charts, interpret the findings, and prepare the final report and presentation.
 
-### Excluded
-- Building a full e-commerce website.
-- Payment processing.
-- Inventory or delivery management.
-- Payment-gateway integration.
-- Production deployment of a live analytics platform.
+The exact dataset and its size remain unspecified in the project plan. The repository currently contains documentation and visual materials; the dataset, analysis code, and final analytical results have not yet been included.
 
-## Planned Analytics Workflow
+## Repository Materials
 
-1. Define the business questions.
-2. Select and document the dataset.
-3. Import the data using Pandas.
-4. Validate missing values, duplicates, types, and inconsistent records.
-5. Clean and transform the dataset.
-6. Create required metrics such as revenue.
-7. Analyze sales trends, products, markets, and customers.
-8. Create charts and summary tables.
-9. Validate that the results answer the project objectives.
-10. Interpret findings and prepare recommendations.
-11. Prepare the final report and presentation.
+| Material | Description |
+| --- | --- |
+| [Project Plan 01](Project%20Plan%2001) | Team information, sales-analysis objectives, planned workflow, and timeline |
+| [TTMIK Requirements Analysis](TTMIK_Requirements_Analysis_Visual.pptx) | Eight-slide presentation analyzing the TTMIK YouTube channel as a Korean-learning resource |
+| [E-Commerce Order Process](photo_5321456345535945573_y.jpg) | Process diagram covering browsing, checkout, stock checks, payment, and delivery |
+| [E-Commerce Use Case Diagram](photo_5321456345535945574_y.jpg) | Customer, administrator, payment gateway, and delivery-service interactions |
+| [E-Commerce Work Breakdown Structure](photo_5321456345535945582_y.jpg) | Example task breakdown for a simple order-management system |
+| [E-Commerce Gantt Chart](photo_5321456345535945583_y.jpg) | Example schedule for the order-management system |
+| [E-Commerce Interface Mockup](photo_5321456345535945584_y.jpg) | Illustrative storefront, cart, checkout, and administrator dashboard |
+| [Data Analytics Process](photo_5323364973167713652_y.jpg) | Workflow from defining a business question to validating and reporting results |
+| [Data Analytics Work Breakdown Structure](photo_5323364973167713748_y.jpg) | Planning, data preparation, analysis, and reporting tasks |
 
-## Project Schedule
+The order-management diagrams and interface mockup are supporting design examples. They do not represent a deployed application. Their schedule is separate from the sales-analysis project timeline below.
 
-| Period | Main Activities |
-|---|---|
-| September 7–13 | Project planning, objectives, roles, requirements |
-| September 14–20 | Dataset selection, use cases, BPMN, initial preparation |
-| September 21–27 | Data cleaning, validation, WBS, analysis |
-| September 28–October 4 | Analysis, visualization, interpretation, report preparation |
-| October 5–13 | Final report, presentation, consistency review |
+## Sales Analysis Timeline
+
+| Period | Planned Activities |
+| --- | --- |
+| September 7–13 | Dataset search and project planning |
+| September 14–20 | Data cleaning and preparation |
+| September 21–27 | Data analysis and visualization |
+| September 28–October 4 | Results interpretation and report preparation |
+| October 5–13 | Final report and presentation preparation |
 | October 14 | Project presentation |
 
-See [06_Gantt_Chart.md](06_Gantt_Chart.md) for task dependencies and the detailed schedule.
+These dates reflect the planned schedule, rather than confirmed completion status.
 
-## Current Analytical Status
+## Visual Overview
 
-The repository now contains the full required **project-management planning set**. The exact dataset, Python analysis code, analytical outputs, and final evidence-based findings still need to be added after the dataset is finalized and analyzed.
+### Data Analytics Process
 
-No sales statistics, customer findings, or recommendations are treated as final until they are supported by the actual dataset.
+![Data analytics workflow: define a business question, collect and clean data, analyze, validate, and report](photo_5323364973167713652_y.jpg)
 
-## Korean-Learning Case Study
+### Work Breakdown Structure
 
-[TTMIK_Requirements_Analysis_Visual.pptx](TTMIK_Requirements_Analysis_Visual.pptx) is a separate course case study analyzing the **Talk To Me In Korean YouTube channel** as a Korean-learning resource. It is not part of the E-Commerce Sales Analysis team's six project-management deliverables.
+![Data analytics work breakdown structure covering planning, data preparation, analysis, and reporting](photo_5323364973167713748_y.jpg)
 
-## Legacy / Supporting Visuals
+## TTMIK Requirements Analysis
 
-The existing `photo_*.jpg` files are earlier classroom examples and supporting visuals. Some illustrate an e-commerce **order-management** system with shopping, payment, inventory, and delivery activities. Those images are **not official models for the current E-Commerce Sales Analysis project**.
+The presentation examines **Talk To Me In Korean's YouTube channel** from a System Analysis and Design perspective. It covers learner groups, the learner journey, functional and non-functional requirements, strengths, limitations, and proposed improvements.
 
-For grading the team project, use the six official project-management files listed above.
+It distinguishes YouTube-channel features from TTMIK's separate course services and labels the proposed learning-companion interface as an illustrative concept.
 
-## Suggested Final Repository Additions
+## Viewing the Materials
 
-Before final submission, the analytical stage should add:
+Browse the plan and images directly on GitHub. Download the `.pptx` file and open it in PowerPoint or another compatible presentation application to view the slides and speaking notes.
 
-```text
-analysis/
-├── dataset_source.md
-├── ecommerce_analysis.ipynb
-├── cleaned_data.csv        (if permitted)
-└── charts/
+To obtain a local copy:
 
-Final_Report.docx
-E-Commerce_Sales_Analysis_Presentation.pptx
+```bash
+git clone https://github.com/AbdullohXX/IT-Project-Management.git
+cd IT-Project-Management
 ```
 
-The final report and presentation should use the same scope, objectives, terminology, schedule, and analytical results documented in this repository.
+No application installation or execution is required to view the current materials.
