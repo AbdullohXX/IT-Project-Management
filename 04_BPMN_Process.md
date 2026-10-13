@@ -3,6 +3,12 @@
 ## Process Objective
 Transform raw e-commerce sales data into validated business insights and recommendations.
 
+## Supporting Process Visual
+
+The following existing repository image matches the analytical workflow used by this project:
+
+![Data analytics workflow: define a business question, collect and clean data, analyze, validate, and report](photo_5323364973167713652_y.jpg)
+
 ## BPMN-Style Process
 
 ```mermaid
