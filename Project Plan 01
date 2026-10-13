@@ -1,147 +1,92 @@
-# Project Plan: E-Commerce Sales Analysis
+# Project Plan: IT PM Project 1
 
-## 1. Course
-**Capstone 2 — IT Project Management**
+ ### 1\. Course Name
 
-## 2. Team Information
+ **IT Project Management**
 
-**Team Name:** Lolo_Team
+ ### 2. Team Information
 
-| Member | Student ID | Group | Role |
-|---|---:|---|---|
-| Abdulloh Xojimurodov | 202490365 | I24A | Team Leader |
-| Najmiddin Kurganov | 202490180 | I24A | Project Planner |
-| Biloliddin To'laganov | 202490326 | I24A | Project Speaker |
+ - **Team Name:** Lolo_Team
+- **Team Members:**
+  - Leader: Abdulloh Xojimurodov / Student ID: 202490365 / Group: I24A / Role: Leader
+  - Member 1: Najmiddin Kurganov / Student ID: 202490180 / Group: I24A / Role: Project planner
+  - Member 2: Biloliddin To'laganov / Student ID: 202490326 / Group: I24A / Role: Project speaker 
 
-## 3. Project Title
-**E-Commerce Sales Analysis**
+ ### 3\. Project Title
 
-## 4. Project Background and Problem
-E-commerce businesses generate large amounts of sales data, but raw transaction records are difficult to use directly for decision-making. Managers need clear answers about revenue, product performance, sales trends, customer value, and market performance.
+ **E-Commerce Sales Analysis**
 
-This project plans and demonstrates a repeatable data-analysis process that converts raw e-commerce sales data into understandable metrics, charts, findings, and business recommendations.
+ ### 4\. Dataset Information
 
-## 5. Project Objectives
-- Analyze overall sales performance.
-- Identify best-selling and highest-revenue products.
-- Compare sales across countries or markets.
+ - **Dataset Title:** E-Commerce Sales Dataset
+- **Source Website / URL:** Kaggle
+- **Description:** Dataset containing information about online sales, products, customers, orders, prices, quantities, and dates.
+- **Why selected:** To analyze sales performance and customer purchasing patterns.
+- **Size:** To be determined after dataset selection.
+
+ ### 5\. Project Objectives
+
+ - Analyze e-commerce sales performance.
+- Identify the best-selling products.
+- Find the countries with the highest sales.
 - Analyze monthly sales trends.
-- Identify valuable customers.
+- Identify the most valuable customers.
 - Calculate average order value.
-- Present findings using clear tables and visualizations.
-- Produce evidence-based recommendations from the analysis.
 
-## 6. Project Scope
+ ### 6\. Data Preparation
 
-### In Scope
-- Selecting and documenting an appropriate e-commerce dataset.
-- Importing data using Python and Pandas.
-- Checking missing values, duplicates, invalid records, and data types.
-- Cleaning and transforming the dataset.
-- Creating calculated fields such as revenue when appropriate.
-- Performing sales, product, market, customer, and time-based analysis.
-- Creating summary tables, pivot tables, and visualizations.
-- Interpreting results and preparing recommendations.
-- Preparing project-management models: Team Agreement, Use Case Model, BPMN, WBS, and Gantt Chart.
-- Preparing the final report and presentation.
+ - Load the dataset using Pandas.
+- Check and handle missing values.
+- Remove duplicate records.
+- Correct data types.
+- Create useful new columns such as total revenue.
 
-### Out of Scope
-- Building or deploying a complete e-commerce shopping website.
-- Processing real customer payments.
-- Managing inventory, delivery, or payment-gateway integrations.
-- Developing a production database or live business intelligence platform.
-- Collecting private customer data outside the selected dataset.
+ ### 7\. Data Analysis Tasks
 
-## 7. Stakeholders and Users
-- **Data Analyst:** prepares, validates, analyzes, and visualizes the data.
-- **Business Manager:** reviews analytical findings and recommendations for decision-making.
-- **Project Team:** plans, reviews, documents, and presents the project.
-- **Instructor / Evaluator:** reviews the project-management and analytical deliverables.
-
-## 8. Dataset Information
-- **Dataset Title:** E-Commerce Sales Dataset
-- **Source:** Kaggle or another approved public data source
-- **Description:** Expected to contain online sales information such as orders, products, customers, quantities, prices, dates, and markets/countries.
-- **Selection reason:** Suitable for analyzing sales performance and customer purchasing patterns.
-- **Exact dataset and size:** To be documented once the final dataset is selected.
-
-No dataset statistics or results will be invented before the final dataset is selected and analyzed.
-
-## 9. Data Preparation Plan
-1. Load the dataset using Pandas.
-2. Review columns, row count, and data types.
-3. Check missing values.
-4. Check and remove duplicate records where justified.
-5. Correct data types.
-6. Identify invalid or inconsistent values.
-7. Create useful calculated fields such as total revenue where appropriate.
-8. Revalidate the cleaned dataset before analysis.
-
-## 10. Data Analysis Tasks
-- Filter and sort sales data.
-- Group sales by product, country/market, customer, and time period.
+ - Filter and sort sales data.
+- Group sales by product, country, and customer.
 - Calculate total and average revenue.
-- Calculate average order value.
-- Analyze monthly sales trends.
-- Identify best-selling products.
-- Identify highest-revenue products.
-- Identify valuable customers.
-- Create pivot tables and summary tables.
-- Create visualizations that answer the stated objectives.
+- Analyze monthly sales.
+- Create pivot tables.
+- Answer the project objectives using Pandas.
 
-## 11. Expected Findings
-The project is expected to identify:
-- products that contribute most to sales or revenue;
-- strong and weak sales periods;
-- high-performing countries or markets;
-- high-value customers or customer groups;
-- useful patterns that support business recommendations.
+ ### 8\. Key Findings and Insights
 
-Actual findings will only be stated after the dataset has been analyzed.
+ - Identify the highest-revenue products.
+- Determine the strongest sales periods.
+- Find the most important customer groups and markets.
+- Provide recommendations based on the analysis.
 
-## 12. Deliverables
-1. Project Plan
-2. Team Agreement
-3. Use Case Model and Use Case Specifications
-4. Business Process Model (BPMN-style workflow)
-5. Work Breakdown Structure (WBS)
-6. Gantt Chart
-7. Analytical results and visualizations
-8. Final report
-9. Final presentation
+ ### 9\. Project Timeline
 
-## 13. Project Timeline
+ | Week | Activities |
+| --- | --- |
+| **Week 1 (07 Sep – 13 Sep)** | Dataset search and project planning |
+| **Week 2 (14 Sep – 20 Sep)** | Data cleaning and preparation |
+| **Week 3 (21 Sep – 27 Sep)** | Data analysis and visualization |
+| **Week 4 (28 Sep – 04 Oct)** | Results interpretation and report preparation |
+| **Week 5 (05 Oct – 13 Oct)** | Final report and presentation preparation |
+| **Presentation (14 Oct)** | Project presentation |
 
-| Period | Planned Activities |
-|---|---|
-| September 7–13 | Project planning, objectives, roles, requirements |
-| September 14–20 | Dataset selection, use cases, BPMN, initial preparation |
-| September 21–27 | Data cleaning, validation, WBS, analysis |
-| September 28–October 4 | Analysis, visualization, interpretation, report preparation |
-| October 5–13 | Final report, presentation, and consistency review |
-| October 14 | Project presentation |
+### 10\. Outcome of the Project
 
-A detailed task-level schedule is available in `06_Gantt_Chart.md`.
+ - Learn practical Pandas data analysis.
+- Develop data cleaning and analytical skills.
+- Improve teamwork and project management skills.
+- Learn how to interpret and present data.
 
-## 14. Success Criteria
-The project is successful when:
-- all required project-management deliverables are complete and consistent;
-- the selected dataset is documented and cleaned using transparent rules;
-- each project objective is answered by an analytical result;
-- charts and tables accurately represent the calculations;
-- recommendations are supported by evidence;
-- the final report and presentation use the same scope, terminology, and findings.
+ ### 11\. Conclusion
 
-## 15. Expected Learning Outcomes
-- Apply project-management planning techniques to a realistic analytics project.
-- Improve data cleaning and analytical skills with Pandas.
-- Practice requirements modeling, BPMN, WBS, and scheduling.
-- Improve teamwork, documentation, interpretation, and presentation skills.
+ The project will use real-world e-commerce data to demonstrate how Pandas can be used to clean, analyze, and interpret data for better business decision-making.
 
-## 16. References
-- Dataset source to be recorded after final selection.
-- Pandas Documentation.
-- Python Documentation.
+ ### 12\. References
 
-## 17. Appendix
-Planned appendix materials include Python/Pandas code, dataset notes, additional tables, charts, and analysis outputs.
+ - Kaggle
+- Pandas Documentation
+- Python Documentation
+
+ ### 13\. Appendix
+
+ - Python/Pandas code
+- Additional tables
+- Charts and analysis results
